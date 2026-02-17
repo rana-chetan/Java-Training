@@ -11,6 +11,4 @@ public class Student {
         System.out.println("Roll Number: " + rollNumber);
         System.out.println("Name: " + name);
     }
-
-    // adding a method to set the details of the student
 }

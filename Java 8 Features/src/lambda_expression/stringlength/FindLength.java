@@ -6,5 +6,4 @@ package lambda_expression.stringlength;
 public interface FindLength {
 
     public abstract int length(String str);
-
 }

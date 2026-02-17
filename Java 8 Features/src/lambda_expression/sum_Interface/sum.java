@@ -6,5 +6,4 @@ package lambda_expression.sum_Interface;
 public interface sum {
 
     public abstract int add(int a, int b);
-
 }
