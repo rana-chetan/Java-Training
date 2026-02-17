@@ -11,10 +11,11 @@ public class Main {
 //        Provider provider = () -> {
 //            return new Student();
 //        };
+//
 //        Student student = provider.getStudent();
 //        student.show();
 
-        //Constructor method reference
+        //With constructor method reference
         Provider provider1 = Student::new;
         Student student = provider1.getStudent();
         student.show();

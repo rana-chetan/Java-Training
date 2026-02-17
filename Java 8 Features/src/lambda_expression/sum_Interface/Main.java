@@ -1,5 +1,7 @@
 package lambda_expression.sum_Interface;
 
+// Lambda Expression for Adding Two Numbers using Functional Interface
+
 public class Main {
 
     public static void main(String[] args) {

@@ -1,13 +1,15 @@
-import lambda_expression.MyInterface;
-import lambda_expression.MyInterfaceImpl;
+package lambda_expression;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+// Types To Implement Functional Interface
+// 1. Using Normal Class
+// 2. Using Anonymous Class
+// 3. Using Lambda Expression
+
 public class Main {
 
     public static void main(String[] args) {
 
-        //way one to implement functional interface method
+        //way one to implement functional interface method using normal class
         MyInterfaceImpl myInterface = new MyInterfaceImpl();
         myInterface.show();
 

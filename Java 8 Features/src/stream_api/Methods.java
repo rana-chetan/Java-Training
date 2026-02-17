@@ -1,21 +1,21 @@
-package Stream_API;
+package stream_api;
 
 import java.util.List;
+
+// Stream() methods
+// 1- filter() - used to filter data based on condition
+// 2- map() - used to map data to another format
+// 3- sorted() - used to sort data in ascending order
+// 4- min() - used to find minimum value
+// 5- max() - used to find maximum value
+// 6- collect() - used to collect data into a collection
+// 7- forEach() - used to iterate over data
+// 8- toList() - used to convert stream to list
+// 9- toArray() - used to convert stream to array
 
 public class Methods {
 
     public static void main(String[] args) {
-
-        //Stream() methods
-        //1- filter() - used to filter data based on condition
-        //2- map() - used to map data to another format
-        //3- sorted() - used to sort data in ascending order
-        //4- min() - used to find minimum value
-        //5- max() - used to find maximum value
-        //6- collect() - used to collect data into a collection
-        //7- forEach() - used to iterate over data
-        //8- toList() - used to convert stream to list
-        //9- toArray() - used to convert stream to array
 
         //1- filter()
         List<String> names = List.of("Java", "Python", "C++", "JavaScript", "Ruby", "Go", "Swift");

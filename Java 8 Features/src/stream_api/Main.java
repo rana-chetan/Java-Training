@@ -1,6 +1,7 @@
-package Stream_API;
+package stream_api;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -25,16 +26,18 @@ public class Main {
         //With Stream API
         Stream<Integer> stream = numbers.stream();
 
-//        //print even numbers using filter and collect method
-//        List<Integer> list = stream.filter((i -> i % 2 == 0)).toList();
-//
-//        System.out.println(numbers);
-//        System.out.println(list);
+        //print even numbers using filter and toList method
+        List<Integer> list = stream.filter((i -> i % 2 == 0)).toList();
 
+        System.out.println(numbers);
+        System.out.println(list);
+
+        System.out.println("--------------------------------------------------------------");
 
         //print grater than 50 numbers using filter and collect method
-        System.out.println(stream.filter((i -> i > 50)).collect(Collectors.toList()));
+        Stream<Integer> stream1 = numbers.stream();
 
+        System.out.println(stream1.filter((i -> i > 50)).collect(Collectors.toList()));
     }
 
 }
